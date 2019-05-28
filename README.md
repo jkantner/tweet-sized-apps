@@ -46,6 +46,8 @@ It’s like [endless.horse](http://endless.horse), but it’s a dog.
 ```
 
 ## Flappy Bird
+![Flappy Bird](flappybird.gif)
+
 Bytes: **277**
 
 The core game functionalty is mostly there, but few limits remain: one pipe at a time and same vertical pipe positions.
