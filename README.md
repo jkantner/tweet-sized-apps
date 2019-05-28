@@ -1,4 +1,4 @@
-# tweet-sized-apps
+# Tweet-Sized Apps
 
 To sharpen my skill at JavaScript minification, I occasionally write apps whose entire source fits in a tweet. The best approach for most of these is to adopt the style of Atari 2600 games but a lot more like Pong—using black and white.
 
@@ -23,7 +23,7 @@ Bytes: **275**
 
 So far, we have room for controlling the character and his ability to jump off platforms. Exiting at one side of the screen to end up on the opposite also works. There’s currently no scoring or progression, and passing the top of the screen results in ending up at the bottom.
 
-🕹 J - left, K -  right
+🕹 J - move left, K -  move right
 
 ### Code
 ```
