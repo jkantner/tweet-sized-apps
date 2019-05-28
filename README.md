@@ -4,7 +4,9 @@ To sharpen my skill at JavaScript minification, I occasionally write apps whose 
 
 To try these yourself, just fire up a new [CodePen demo](https://codepen.io/pen) and paste in the HTML pane. Just so you know, these are never done; I’m always in search of ways to cut off more bytes and even open room for more features!
 
-## Clock Widget
+## Analog Clock Widget
+![Preview of clock widget](clock.gif)
+
 Bytes: **279**
 
 A minimalistic UTC clock consisting of a circle and lines for the hands
@@ -15,6 +17,8 @@ A minimalistic UTC clock consisting of a circle and lines for the hands
 ```
 
 ## Doodle Jump
+![Preview of Doodle Jump](doodlejump.gif)
+
 Bytes: **275**
 
 So far, we have room for controlling the character and his ability to jump off platforms. Exiting at one side of the screen to end up on the opposite also works. There’s currently no scoring or progression, and passing the top of the screen results in ending up at the bottom.
