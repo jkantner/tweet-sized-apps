@@ -26,6 +26,25 @@ So far, we have room for controlling the character and his ability to jump off p
 <body onkeyup=x+=event.which%2?9:-9 onload="c=C.getContext('2d');a=0;P=[x=63,9,y=99,x];setInterval(`a+=.01;y+=y<0?108:a;c.fillRect(0,0,W=144,W);for(p in P)l=p*36,d=P[p],a=y>l&&y<l+4&&x+8>d&&x<d+20?-1:a,c.clearRect(d,l,20,4);c.clearRect(x=x?x>W?9:x:W,y,8,-8)`,7)"><canvas id=C
 ```
 
+## Endless Dog
+Bytes: **274**
+
+It’s like [endless.horse](http://endless.horse), but it’s a dog.
+
+🕹 Hover - grow
+
+### Code
+```
+<pre id=a onmousemove="b=[],a.innerHTML.split('\n').forEach((e,i)=>{d=e.split(''),d.splice(7,0,i==2?'-':i==4?'_':' '),b[i]=d.join('')}),a.innerHTML=b.join('\n')">
+  ,        ," e`--o
+ ((       (  | __,'
+  \\~----' \_;/
+  (          /
+  /) .___.  )
+ (( (   (( (
+  ``-'   ``-'
+```
+
 ## Flappy Bird
 Bytes: **277**
 
