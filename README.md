@@ -27,6 +27,8 @@ So far, we have room for controlling the character and his ability to jump off p
 ```
 
 ## Endless Dog
+![Preview of endless dog](endlessdog.gif)
+
 Bytes: **274**
 
 It’s like [endless.horse](http://endless.horse), but it’s a dog.
@@ -46,7 +48,7 @@ It’s like [endless.horse](http://endless.horse), but it’s a dog.
 ```
 
 ## Flappy Bird
-![Flappy Bird](flappybird.gif)
+![Preview of Flappy Bird](flappybird.gif)
 
 Bytes: **277**
 
