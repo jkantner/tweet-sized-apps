@@ -2,7 +2,7 @@
 
 To sharpen my skill at JavaScript minification, I occasionally write apps whose entire source fits in a tweet. The best approach for most of these is to adopt the style of Atari 2600 games but a lot more like Pong—using black and white. In effort to expand this collection, I’ll curate apps made by others as well.
 
-To try these yourself, just fire up a new [CodePen demo](https://codepen.io/pen) and paste in the HTML pane. Just so you know, the ones I wrote (without author) are never done; I’m always in search of ways to cut off more bytes and even open room for more features!
+To try these yourself, fire up a new [CodePen demo](https://codepen.io/pen) and paste the code in the HTML pane. Just so you know, the ones I wrote (without author) are never done; I’m always in search of ways to cut off more bytes and even open room for more features!
 
 **Jump to…**
 
@@ -81,7 +81,7 @@ The core game functionalty is mostly there, but few limits remain: one pipe at a
 ## Tron
 ![Preview of Tron](tron.gif)
 
-Author: [Alok Menghrajani](https://www.quaxio.com)
+Author: [Alok Menghrajani](https://www.quaxio.com/tron/)
 
 Bytes: **219**
 
