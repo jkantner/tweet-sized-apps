@@ -1,6 +1,6 @@
 # Tweet-Sized Apps
 
-To sharpen my skill at JavaScript minification, I occasionally write apps whose entire source fits in a tweet. The best approach for most of these is to adopt the style of Atari 2600 games but a lot more like Pong—using black and white.
+To sharpen my skill at JavaScript minification, I occasionally write apps whose entire source fits in a tweet. The best approach for most of these is to adopt the style of Atari 2600 games but a lot more like Pong—using black and white. In effort to expand this collection, I’ll curate apps made by others as well.
 
 To try these yourself, just fire up a new [CodePen demo](https://codepen.io/pen) and paste in the HTML pane. Just so you know, these are never done; I’m always in search of ways to cut off more bytes and even open room for more features!
 
@@ -63,4 +63,19 @@ The core game functionalty is mostly there, but few limits remain: one pipe at a
 ### Code
 ```
 <body id=B onload="c=C.getContext('2d');o=[90,-92,98];y=0;x=225;s=0;setInterval('c.fillRect(0,0,W=150,W);for(i in o)c.clearRect(+i?x:37,o[i],+i?14:9,+i?W:9);b=o[0];b<W-9&&(x<23||x>46||58<b&&b<89)?(y+=.04,x<-13?(x=W,++s):--x,o[0]+=y):B.innerHTML=s',9)"><canvas id=C onclick=y=-1
+```
+
+## Tron
+![Preview of Tron](tron.gif)
+
+Author: [Alok Menghrajani](https://www.quaxio.com)
+Bytes: **219**
+
+This one is where my inspiration came from for the others on here. It surfaced on Twitter when the expanded character limit was introduced.
+
+🕹 I - up, J - left, K - down, L - right
+
+### Code
+```
+<body id=b onkeyup=e=event onload=z=c.getContext('2d');z.fillRect(s=0,0,n=150,x=11325);setInterval("0<x%n&x<n*n&(z[x+=[1,-n,-1,n][e.which&3]]^=1)?z.clearRect(x%n,x/n,1,1,s++):b.innerHTML='game�over:'+s",9)><canvas id=c>
 ```
