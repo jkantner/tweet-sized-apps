@@ -77,6 +77,19 @@ The core game functionalty is mostly there, but few limits remain: one pipe at a
 <body id=B onload="c=C.getContext('2d');o=[90,-92,98];y=0;x=225;s=0;setInterval('c.fillRect(0,0,W=150,W);for(i in o)c.clearRect(+i?x:37,o[i],+i?14:9,+i?W:9);b=o[0];b<W-9&&(x<23||x>46||58<b&&b<89)?(y+=.04,x<-13?(x=W,++s):--x,o[0]+=y):B.innerHTML=s',9)"><canvas id=C onclick=y=-1
 ```
 
+<a name="snow"></a>
+## Snow
+![Preview of Snow](snow.gif)
+
+Bytes: **257**
+
+A simple snowfall consisting of asterisks for the flakes
+
+### Code
+```
+<body onload="c=C.getContext('2d');R=Math.random;H=164;F=[];f=99;while(f--)F[f]={y:R()*H,s:R()};setInterval(`c.fillRect(x=0,0,300,H);for(f of F){c.font=28*f.s+'q a';f.y=f.y%H+f.s;c.fillText('*',x,f.y);x+=3;c.fillStyle=x>294?'#000':'#fff'}`,9)"><canvas id=C>
+```
+
 <a name="tron"></a>
 ## Tron
 ![Preview of Tron](tron.gif)
