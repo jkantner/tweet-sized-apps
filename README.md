@@ -10,6 +10,7 @@ To try these yourself, fire up a new [CodePen demo](https://codepen.io/pen) and 
 * [Doodle Jump](#doodle-jump)
 * [Endless Dog](#endless-dog)
 * [Flappy Bird](#flappy-bird)
+* [Snow](#snow)
 * [Tron](#tron)
 
 <a name="analog-clock-widget"></a>
